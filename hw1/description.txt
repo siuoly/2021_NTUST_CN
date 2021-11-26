@@ -1,0 +1,9 @@
+
+使用方法:
+$ python3 main.py
+
+作法:
+使用python http.server 模組，對於每一個request uri, server會簡單的回傳get請求的檔案。
+
+我有自訂handler 類別，用於自訂 404 not found 訊息
+
